@@ -30,6 +30,14 @@ export default function RootLayout({ children }) {
               <li>
                 <Link
                   className="bg-black py-4 px-2 text-white rounded-md"
+                  href={"/whileDrag/"}
+                >
+                  whileDrag
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="bg-black py-4 px-2 text-white rounded-md"
                   href={"/gestures/"}
                 >
                   Gestures
